@@ -9,7 +9,7 @@ steps:
     repo: quay.io/ankitrgadiya/caddy
     dockerfile: ./Dockerfile
     registry: quay.io
-    tags: ["latest", "2.2.1"]
+    tags: ["latest", "2.3.0"]
     username:
       from_secret: docker_username
     password:
