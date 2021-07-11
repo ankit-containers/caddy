@@ -8,3 +8,10 @@ provides Caddy inside Distroless base-image.
 ```bash
 docker pull quay.io/ankitrgadiya/caddy
 ```
+
+## Releases
+
+Caddy upstream project follows semantic versioning. So, the image tags will
+correspond to the upstream release versions. The `latest` tag will always point
+to the most recent release. I intend to provide all versions from "2.3.0"
+onwards.
