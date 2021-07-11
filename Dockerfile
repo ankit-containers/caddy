@@ -1,6 +1,6 @@
 FROM alpine:latest AS puller
 
-ENV CADDY_VERSION=2.4.2
+ENV CADDY_VERSION=2.4.3
 
 RUN wget "https://github.com/caddyserver/caddy/releases/download/v${CADDY_VERSION}/caddy_${CADDY_VERSION}_linux_amd64.tar.gz" \
     && tar -xvf caddy_${CADDY_VERSION}_linux_amd64.tar.gz
